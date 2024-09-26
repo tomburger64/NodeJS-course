@@ -1,0 +1,11 @@
+these are just some notes for myself
+
+fs = file system, used for dealing with files
+needs to be defined as a var at the beginning
+
+path is self explanatory, needs to be defined at the beginning
+
+
+
+gonna practice some js promises / await + async exercises cuz I've never dealt with it
+gonna write more notes when I'm done
