@@ -1,3 +1,0 @@
-This is the written text
-
-This is modified using append()

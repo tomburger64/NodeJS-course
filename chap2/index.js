@@ -9,6 +9,10 @@ const fileOps = async () => {
         const data = await fsPromises.readFile(path.join(__dirname, 'files', 'starter.txt'), 'utf8');
         console.log(data);
         // ↑ reading data from a file
+
+        await fsPromises.unlink(path.join(__dirname, 'files', 'starter.txt'));
+        // ↑ deletes the mentionned file
+
         await fsPromises.writeFile(path.join(__dirname, 'files', 'promiseWright.txt'), data);
         // ↑ write data to a new file
         await fsPromises.appendFile(path.join(__dirname, 'files', 'promiseWright.txt'), '\n\nAlso heres the appended text here !');
